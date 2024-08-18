@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <script src="https://kit.fontawesome.com/40519023aa.js" crossorigin="anonymous"></script>
+
+    <style>
+        .manrope{
+        font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+<body class="manrope max-w-screen-2xl mx-auto px-28">
+
+    <!-- Header content -->
+    <header class="flex justify-between items-center pt-10 mb-20">
+        <!-- Text content -->
+        <div class="space-y-7">
+            <h1 class="md:text-7xl font-extrabold leading-tight">It's good
+                <br>
+                tea time at The
+                <br>
+                Tea House
+            </h1>
+    
+            <p class="text-lg font-medium text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum
+            <br>
+            Satisfaction To Your Taste Buds.
+            </p>
+
+            <button class="p-4 text-white font-bold text-xl bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-xl">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        </div>
+
+        <!-- Image content -->
+        <div class="relative">
+            <div class="">
+                <img src="./images/banner.png" alt="">
+            </div>
+            <!-- text content -->
+            <div class="flex items-center shadow-lg px-8 py-4 rounded-lg bg-white absolute bottom-5 left-32">
+                <div class="mr-3">
+                    <i class="fa-solid fa-star text-[#FFF082]  text-2xl"></i>
+                </div>
+
+                <div class="">
+                    <h4 class="text-3xl font-extrabold">5.00</h4>
+                    <p class="text-lg font-semibold"></p>Pilot trust Ratings</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Feature section -->
+         <section class="space-y-8">
+            <!-- text content -->
+             <div class="text-center max-w-[55rem] mx-auto space-y-5 ">
+                <h2 class="text-5xl font-extrabold">Our Featured Products</h2>
+                <p class="text-lg text-[#777777] font-medium space-y-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+             </div>
+
+             <!-- Image content -->
+              <div class="grid grid-cols-4 gap-6">
+                <!-- image cart 1-->
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden text-center px-6 py-5">
+                    <!-- image container -->
+                     <div class="flex justify-center">
+                        <img src="./images/tea-1.png" alt="">
+                     </div>
+
+                     <!-- text container -->
+                      <div class="mt-8">
+                        <h3 class="text-2xl font-extrabold">Milk Tea</h3>
+                        <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
+                      </div>
+                </div>
+
+                <!-- image cart 2 -->
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden text-center px-6 pt-5">
+                  <!-- image container -->
+                   <div class="flex justify-center">
+                      <img src="./images/tea-2.png" alt="">
+                   </div>
+                   <!-- text container -->
+                    <div class="mt-8">
+                      <h3 class="text-2xl font-extrabold">Milk Tea</h3>
+                      <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <!-- image cart -->
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden text-center px-6 py-5 ">
+                <!-- image container -->
+                 <div class="flex justify-center">
+                    <img src="./images/tea-3.png" alt="">
+                 </div>
+                 <!-- text container -->
+                  <div class="mt-8">
+                    <h3 class="text-2xl font-extrabold">Milk Tea</h3>
+                    <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
+                  </div>
+                </div>
+
+                <!-- image cart -->
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden text-center px-6 py-5">
+              <!-- image container -->
+               <div class="flex justify-center">
+                  <img src="./images/tea-4.png" alt="">
+               </div>
+               <!-- text container -->
+                <div class="mt-8">
+                  <h3 class="text-2xl font-extrabold">Milk Tea</h3>
+                  <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
+                </div>
+                </div>
+              </div>
+         </section>
+
+    </main>
+
+</body>
+</html>
